@@ -4,3 +4,4 @@ package-lock.json
 !.gitignore
 # 忽略文件夹
 /node_modules/*
+/OutApp/*
