@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "electron .",
-    "packager": "electron-packager ./ app --platform=win32 --arch=x64 --out ./OutApp --version 1.4.0 --overwrite --icon=./icon.ico"
+    "packager": "electron-packager ./ app --platform=win32 --arch=x64 --out ./OutApp --version 1.4.0 --overwrite --icon=./icon.ico",
+    "asar": "asar pack ./OutApp/app-win32-x64/resources/app ./OutApp/app-win32-x64/resources/app.asar"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
